@@ -3,145 +3,165 @@
   "resources": [
     {
       "name": "relatoriopedidosinstituicoes2016.csv",
-      "path": "https://raw.githubusercontent.com/dados-mg/relatorios-de-pedidos/master/data/relatoriopedidosinstituicoes2016.csv",
+      "path": "/data/relatoriopedidosinstituicoes2016.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
-            "name": "Institui‡äes",
+            "name": "Instituicoes",
             "type": "string",
             "format": "default",
-            "title": "instituicoes"
+            "title": "instituicoes",
+            "description": "instituicoes"
           },
           {
             "name": "Pedidos",
             "type": "number",
             "format": "default",
-            "title": "pedidos"
+            "title": "pedidos",
+            "description": "numero de pedidos"
           },
           {
-            "name": "Percentual Institui‡Æo/Total",
+            "name": "Percentual Instituicao/Total",
             "type": "integer",
             "format": "default",
-            "title": "percentual instituicao/total"
+            "title": "percentual instituicao/total",
+            "description": "percentual instituicao/total"
           },
           {
             "name": "Pedidos Respondidos",
             "type": "number",
             "format": "default",
-            "title": "pedidos respondidos"
+            "title": "pedidos respondidos",
+            "description": "numero de pedidos respondidos"
           },
           {
             "name": "%Pedidos Respondidos",
             "type": "integer",
             "format": "default",
-            "title": "percentual respondidos"
+            "title": "percentual respondidos",
+            "description": "percentual de pedidos respondidos"
           },
           {
-            "name": "Pedidos em Tramita‡Æo no Prazo",
+            "name": "Pedidos em Tramitacao no Prazo",
             "type": "number",
             "format": "default",
-            "title": "pedidos em tramitacao no prazo"
+            "title": "pedidos em tramitacao no prazo",
+            "description": "numero de pedidos em tramitacao no prazo"
           },
           {
             "name": "%Pedidos Respondidos",
             "type": "integer",
             "format": "default",
-            "title": "percentual respondidos 2"
+            "title": "percentual respondidos 2",
+            "description": "percentual de pedidos respondidos 2"
           },
           {
-            "name": "Pedidos em Tramita‡Æo fora do prazo",
+            "name": "Pedidos em Tramitacao fora do prazo",
             "type": "number",
             "format": "default",
-            "title": "pedidos em tramitacao fora prazo"
+            "title": "pedidos em tramitacao fora prazo",
+            "description": "numero de pedidos em tramitacao fora do prazo"
           },
           {
-            "name": "%Pedidos em tramita‡Æo fora do prazo",
+            "name": "%Pedidos em tramitacao fora do prazo",
             "type": "integer",
             "format": "default",
-            "title": "percentual fora do prazo"
+            "title": "percentual fora do prazo",
+            "description": "percentual de pedidos em tramitacao fora do prazo"
           },
           {
             "name": "TOTAL HORIZONTAL",
             "type": "integer",
             "format": "default",
-            "title": "total horizontal"
+            "title": "total horizontal",
+            "description": "total horizontal"
           }
         ]
       }
     },
     {
       "name": "relatoriopedidosinstituicoes2017.csv",
-      "path": "https://raw.githubusercontent.com/dados-mg/relatorios-de-pedidos/master/data/relatoriopedidosinstituicoes2017.csv",
+      "path": "data/relatoriopedidosinstituicoes2017.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
-            "name": "Institui‡äes",
+            "name": "Instituicoes",
             "type": "string",
             "format": "default",
-            "title": "instituicoes"
+            "title": "instituicoes",
+            "description": "instituicoes"
           },
           {
             "name": "Pedidos",
             "type": "number",
             "format": "default",
-            "title": "pedidos"
+            "title": "pedidos",
+            "description": " numero de pedidos"
           },
           {
-            "name": "Percentual Institui‡Æo/Total",
+            "name": "Percentual Instituicao/Total",
             "type": "integer",
             "format": "default",
-            "title": "percentual instituicao/total"
+            "title": "percentual instituicao/total",
+            "description": "percentual instituicao/total"
           },
           {
             "name": "Pedidos Respondidos",
             "type": "number",
             "format": "default",
-            "title": "pedidos respondidos"
+            "title": "pedidos respondidos",
+            "description": "numero de pedidos respondidos"
           },
           {
             "name": "%Pedidos Respondidos",
             "type": "integer",
             "format": "default",
-            "title": "percentual respondidos"
+            "title": "percentual respondidos",
+            "description": "percentual de pedidos respondidos"
           },
           {
-            "name": "Pedidos em Tramita‡Æo no Prazo",
+            "name": "Pedidos em Tramitacao no Prazo",
             "type": "number",
             "format": "default",
-            "title": "pedidos em tramitacao no prazo"
+            "title": "pedidos em tramitacao no prazo",
+            "description": "numero de pedidos em tramitacao no prazo"
           },
           {
             "name": "%Pedidos Respondidos",
             "type": "integer",
             "format": "default",
-            "title": "percentual respondidos 2"
+            "title": "percentual respondidos 2",
+            "description": "percentual de pedidos respondidos"
           },
           {
-            "name": "Pedidos em Tramita‡Æo fora do prazo",
+            "name": "Pedidos em Tramitacao fora do prazo",
             "type": "number",
             "format": "default",
-            "title": "pedidos em tramitacao fora prazo"
+            "title": "pedidos em tramitacao fora prazo",
+            "description": "numero de pedidos em tramitacao fora do prazo"
           },
           {
-            "name": "%Pedidos em tramita‡Æo fora do prazo",
+            "name": "%Pedidos em tramitacao fora do prazo",
             "type": "integer",
             "format": "default",
-            "title": "percentual fora do prazo"
+            "title": "percentual fora do prazo",
+            "description": "percentual de pedidos em tramitacao fora do prazo"
           },
           {
             "name": "TOTAL HORIZONTAL",
             "type": "integer",
             "format": "default",
-            "title": "total horizontal"
+            "title": "total horizontal",
+            "description": "total horizontal"
           }
         ]
       }
     },
     {
       "name": "relatoriopedidosinstituicoes2018.csv",
-      "path": "https://raw.githubusercontent.com/dados-mg/relatorios-de-pedidos/master/data/relatoriopedidosinstituicoes2018.csv",
+      "path": "data/relatoriopedidosinstituicoes2018.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -149,268 +169,305 @@
             "name": "Órgãos/entidades",
             "type": "string",
             "format": "default",
-            "title": "instituicoes"
+            "title": "instituicoes",
+            "description": "instituicoes"
           },
           {
             "name": "Pedidos",
             "type": "number",
             "format": "default",
-            "title": "pedidos"
+            "title": "pedidos",
+            "description": "numero de pedidos"
           },
           {
-            "name": "Percentual Institui‡Æo/Total",
+            "name": "Percentual Instituicao/Total",
             "type": "integer",
             "format": "default",
-            "title": "percentual instituicao/total"
+            "title": "percentual instituicao/total",
+            "description": "percentual de instituicao/total"
           },
           {
             "name": "Pedidos Respondidos",
             "type": "number",
             "format": "default",
-            "title": "pedidos respondidos"
+            "title": "pedidos respondidos",
+            "description": "numero de pedidos respondidos"
           },
           {
             "name": "%Pedidos Respondidos",
             "type": "integer",
             "format": "default",
-            "title": "percentual respondidos"
+            "title": "percentual respondidos",
+            "description": "percentual de pedidos respondidos"
           },
           {
-            "name": "Pedidos em Tramita‡Æo no Prazo",
+            "name": "Pedidos em Tramitacao no Prazo",
             "type": "number",
             "format": "default",
-            "title": "pedidos em tramitacao no prazo"
+            "title": "pedidos em tramitacao no prazo",
+            "description": "numero de pedidos em tramitacao no prazo"
           },
           {
             "name": "%Pedidos em tramitacao no prazo",
             "type": "integer",
             "format": "default",
-            "title": "percentual em tramitacao no prazo"
+            "title": "percentual em tramitacao no prazo",
+            "description": "percentual de pedidos em tramitacao no prazo"
           },
           {
-            "name": "Pedidos em Tramita‡Æo fora do prazo",
+            "name": "Pedidos em Tramitacao fora do prazo",
             "type": "number",
             "format": "default",
-            "title": "pedidos em tramitacao fora prazo"
+            "title": "pedidos em tramitacao fora prazo",
+            "description": "numero de pedidos em tramitacao fora do prazo"
           },
           {
-            "name": "%Pedidos em tramita‡Æo fora do prazo",
+            "name": "%Pedidos em tramitacao fora do prazo",
             "type": "integer",
             "format": "default",
-            "title": "percentual fora do prazo"
+            "title": "percentual fora do prazo",
+            "description": "percentual de pedidos em tramitacao fora do prazo"
           },
           {
             "name": "TOTAL HORIZONTAL",
             "type": "integer",
             "format": "default",
-            "title": "total horizontal"
+            "title": "total horizontal",
+            "description": "total horizontal"
           }
         ]
       }
     },
     {
       "name": "relatoriopedidosinstituicoes2019.csv",
-      "path": "https://raw.githubusercontent.com/dados-mg/relatorios-de-pedidos/master/data/relatoriopedidosinstituicoes2019.csv",
+      "path": "data/relatoriopedidosinstituicoes2019.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
-            "name": "Institui‡äes",
+            "name": "Instituicoes",
             "type": "string",
             "format": "default",
-            "title": "instituicoes"
+            "title": "instituicoes",
+            "description": "instituicoes"
           },
           {
             "name": "Pedidos",
             "type": "number",
             "format": "default",
-            "title": "pedidos"
+            "title": "pedidos",
+            "description": "numero de pedidos"
           },
           {
-            "name": "Percentual Institui‡Æo/Total",
+            "name": "Percentual Instituicao/Total",
             "type": "integer",
             "format": "default",
-            "title": "percentual instituicao/total"
+            "title": "percentual instituicao/total",
+            "description": "percentual de instituicao/total"
           },
           {
             "name": "Pedidos Respondidos",
             "type": "number",
             "format": "default",
-            "title": "pedidos respondidos"
+            "title": "pedidos respondidos",
+            "description": "numero de pedidos respondidos"
           },
           {
             "name": "% Pedidos Respondidos",
             "type": "integer",
             "format": "default",
-            "title": "percentual respondidos"
+            "title": "percentual respondidos",
+            "description": "percentual de pedidos respondidos"
           },
           {
             "name": "TOTAL HORIZONTAL",
             "type": "integer",
             "format": "default",
-            "title": "total horizontal"
+            "title": "total horizontal",
+            "description": "total horizontal"
           }
         ]
       }
     },
     {
       "name": "relatoriorecursosreclamacoesinstituicoes2016.csv",
-      "path": "https://raw.githubusercontent.com/dados-mg/relatorios-de-pedidos/master/data/relatoriorecursosreclamacoesinstituicoes2016.csv",
+      "path": "data/relatoriorecursosreclamacoesinstituicoes2016.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
-            "name": "Institui��es",
+            "name": "Instituiçoes",
             "type": "string",
             "format": "default",
-            "title": "instituicoes"
+            "title": "instituicoes",
+            "description": "instituicoes"
           },
           {
             "name": "Recursos",
             "type": "number",
             "format": "default",
-            "title": "recursos"
+            "title": "recursos",
+            "description": "numero de recursos"
           },
           {
             "name": "Percentual Recursos/Total",
             "type": "integer",
             "format": "default",
-            "title": "percentual recursos-total"
+            "title": "percentual recursos-total",
+            "description": "percentual de recursos sobre o total de pedidos"
           },
           {
-            "name": "Reclama��es",
+            "name": "Reclamaçoes",
             "type": "number",
             "format": "default",
-            "title": "reclamacoes"
+            "title": "reclamacoes",
+            "description": "numero de reclamacoes"
           },
           {
-            "name": "Percentual Reclama��es/Total",
+            "name": "Percentual Reclamaçoes/Total",
             "type": "integer",
             "format": "default",
-            "title": "percentual reclamacoes-total"
+            "title": "percentual reclamacoes-total",
+            "description": "percentual de reclamacoes sobre o total de pedidos"
           }
         ]
       }
     },
     {
       "name": "relatoriorecursosreclamacoesinstituicoes2017.csv",
-      "path": "https://raw.githubusercontent.com/dados-mg/relatorios-de-pedidos/master/data/relatoriorecursosreclamacoesinstituicoes2017.csv",
+      "path": "data/relatoriorecursosreclamacoesinstituicoes2017.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
-            "name": "Institui��es",
+            "name": "Instituiçoes",
             "type": "string",
             "format": "default",
-            "title": "instituicoes"
+            "title": "instituicoes",
+            "description": "instituicoes"
           },
           {
             "name": "Recursos",
             "type": "number",
             "format": "default",
-            "title": "recursos"
+            "title": "recursos",
+            "description": "numero de recursos"
           },
           {
             "name": "Percentual Recursos/Total",
             "type": "integer",
             "format": "default",
-            "title": "percentual recursos-total"
+            "title": "percentual recursos-total",
+            "description": "percentual de recursos sobre o total de pedidos"
           },
           {
-            "name": "Reclama��es",
+            "name": "Reclamaçoes",
             "type": "number",
             "format": "default",
-            "title": "reclamacoes"
+            "title": "reclamacoes",
+            "description": "numero de reclamacoes"
           },
           {
-            "name": "Percentual Reclama��es/Total",
+            "name": "Percentual Reclamacoes/Total",
             "type": "integer",
             "format": "default",
-            "title": "percentual reclamacoes-total"
+            "title": "percentual reclamacoes-total",
+            "description": "percentual de reclamacoes sobre o total de pedidos"
           }
         ]
       }
     },
     {
       "name": "relatoriorecursosreclamacoesinstituicoes2018.csv",
-      "path": "https://raw.githubusercontent.com/dados-mg/relatorios-de-pedidos/master/data/relatoriorecursosreclamacoesinstituicoes2018.csv",
+      "path": "data/relatoriorecursosreclamacoesinstituicoes2018.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
-            "name": "Institui��es",
+            "name": "Instituiçoes",
             "type": "string",
             "format": "default",
-            "title": "instituicoes"
+            "title": "instituicoes",
+            "description": "instituicoes"
           },
           {
             "name": "Recursos",
             "type": "number",
             "format": "default",
-            "title": "recursos"
+            "title": "recursos",
+            "description": "numero de recursos"
           },
           {
             "name": "Percentual Recursos/Total",
             "type": "integer",
             "format": "default",
-            "title": "percentual recursos-total"
+            "title": "percentual recursos-total",
+            "description": "percentual de recursos sobre o total de pedidos"
           },
           {
-            "name": "Reclama��es",
+            "name": "Reclamaçoes",
             "type": "number",
             "format": "default",
-            "title": "reclamacoes"
+            "title": "reclamacoes",
+            "description": "numero de reclamacoes"
           },
           {
-            "name": "Percentual Reclama��es/Total",
+            "name": "Percentual Reclamaçoes/Total",
             "type": "integer",
             "format": "default",
-            "title": "percentual reclamacoes-total"
+            "title": "percentual reclamacoes-total",
+            "description": "percentual de reclamacoes sobre o total de pedidos"
           }
         ]
       }
     },
     {
       "name": "relatoriorecursosreclamacoesinstituicoes2019.csv",
-      "path": "https://raw.githubusercontent.com/dados-mg/relatorios-de-pedidos/master/data/relatoriorecursosreclamacoesinstituicoes2019.csv",
+      "path": "data/relatoriorecursosreclamacoesinstituicoes2019.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
-            "name": "Institui��es",
+            "name": "Instituicoes",
             "type": "string",
             "format": "default",
-            "title": "instituicoes"
+            "title": "instituicoes",
+            "description": "instituicoes"
           },
           {
-            "name": "RECURSOS 1� INST�NCIA",
+            "name": "RECURSOS 1 INSTANCIA",
             "type": "number",
             "format": "default",
-            "title": "recursos-1"
+            "title": "recursos-1",
+            "description": "numero de recursos de primeira instancia"
           },
           {
-            "name": "RECURSOS 2� INST�NCIA",
+            "name": "RECURSOS 2 INSTANCIA",
             "type": "number",
             "format": "default",
-            "title": "recursos-2"
+            "title": "recursos-2",
+            "description": "numero de recursos de segunda instancia"
           },
           {
             "name": "RECURSOS PARA A CGE",
             "type": "number",
             "format": "default",
-            "title": "recursos-cge"
+            "title": "recursos-cge",
+            "description": "numero de recursos para a cge"
           },
           {
             "name": "RECURSOS PARA A CMRI",
             "type": "number",
             "format": "default",
-            "title": "recursos cmri"
+            "title": "recursos cmri",
+            "description": "numero de recursos comissao mista de revisao da informacao"
           },
           {
-            "name": "RECLAMA��ES",
+            "name": "RECLAMACOES",
             "type": "number",
             "format": "default",
-            "title": "reclamacoes"
+            "title": "reclamacoes",
+            "description": "numero de reclamacoes"
           }
         ]
       }
@@ -419,7 +476,7 @@
   "name": "relatorios-de-pedidos",
   "title": "Relatórios de Pedidos",
   "description": "Relatórios de pedidos de acesso à informação",
-  "homepage": "http://www.transparencia.dadosabertos.mg.gov.br/dataset/relatorios-de-pedidos-por-instituicao",
+  "homepage": "http://dados.mg.gov.br/dataset/relatorios-de-pedidos",
   "private": "false",
   "state": "active",
   "commit": "",
