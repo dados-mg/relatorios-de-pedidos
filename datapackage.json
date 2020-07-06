@@ -2,9 +2,10 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "relatoriopedidosinstituicoes2016.csv",
-      "path": "/data/relatoriopedidosinstituicoes2016.csv",
+      "name": "relatorio-pedidos-instituicoes-2016.csv",
+      "path": "/data/relatorio-pedidos-instituicoes-2016.csv",
       "profile": "tabular-data-resource",
+      "resourceType": "text/csv",
       "schema": {
         "fields": [
           {
@@ -81,9 +82,10 @@
       }
     },
     {
-      "name": "relatoriopedidosinstituicoes2017.csv",
-      "path": "data/relatoriopedidosinstituicoes2017.csv",
+      "name": "relatorio-pedidos-instituicoes-2017.csv",
+      "path": "data/relatorio-pedidos-instituicoes-2017.csv",
       "profile": "tabular-data-resource",
+      "resourceType": "text/csv",
       "schema": {
         "fields": [
           {
@@ -160,9 +162,10 @@
       }
     },
     {
-      "name": "relatoriopedidosinstituicoes2018.csv",
-      "path": "data/relatoriopedidosinstituicoes2018.csv",
+      "name": "relatorio-pedidos-instituicoes-2018.csv",
+      "path": "data/relatorio-pedidos-instituicoes-2018.csv",
       "profile": "tabular-data-resource",
+      "resourceType": "text/csv",
       "schema": {
         "fields": [
           {
@@ -239,9 +242,10 @@
       }
     },
     {
-      "name": "relatoriopedidosinstituicoes2019.csv",
-      "path": "data/relatoriopedidosinstituicoes2019.csv",
+      "name": "relatorio-pedidos-instituicoes-2019.csv",
+      "path": "data/relatorio-pedidos-instituicoes-2019.csv",
       "profile": "tabular-data-resource",
+      "resourceType": "text/csv",
       "schema": {
         "fields": [
           {
@@ -290,9 +294,10 @@
       }
     },
     {
-      "name": "relatoriorecursosreclamacoesinstituicoes2016.csv",
-      "path": "data/relatoriorecursosreclamacoesinstituicoes2016.csv",
+      "name": "relatorio-recursos-reclamacoes-instituicoes-2016.csv",
+      "path": "data/relatorio-recursos-reclamacoes-instituicoes-2016.csv",
       "profile": "tabular-data-resource",
+      "resourceType": "text/csv",
       "schema": {
         "fields": [
           {
@@ -334,9 +339,10 @@
       }
     },
     {
-      "name": "relatoriorecursosreclamacoesinstituicoes2017.csv",
-      "path": "data/relatoriorecursosreclamacoesinstituicoes2017.csv",
+      "name": "relatorio-recursos-reclamacoes-instituicoes-2017.csv",
+      "path": "data/relatorio-recursos-reclamacoes-instituicoes-2017.csv",
       "profile": "tabular-data-resource",
+      "resourceType": "text/csv",
       "schema": {
         "fields": [
           {
@@ -378,9 +384,10 @@
       }
     },
     {
-      "name": "relatoriorecursosreclamacoesinstituicoes2018.csv",
-      "path": "data/relatoriorecursosreclamacoesinstituicoes2018.csv",
+      "name": "relatorio-recursos-reclamacoes-instituicoes-2018.csv",
+      "path": "data/relatorio-recursos-reclamacoes-instituicoes-2018.csv",
       "profile": "tabular-data-resource",
+      "resourceType": "text/csv",
       "schema": {
         "fields": [
           {
@@ -422,9 +429,10 @@
       }
     },
     {
-      "name": "relatoriorecursosreclamacoesinstituicoes2019.csv",
-      "path": "data/relatoriorecursosreclamacoesinstituicoes2019.csv",
+      "name": "relatorio-recursos-reclamacoes-instituicoes-2019.csv",
+      "path": "data/relatorio-recursos-reclamacoes-instituicoes-2019.csv",
       "profile": "tabular-data-resource",
+      "resourceType": "text/csv",
       "schema": {
         "fields": [
           {
@@ -480,17 +488,25 @@
   "private": "false",
   "state": "active",
   "commit": "9f12b6a0a85501d5cb5a8693b81635119bf0f6b7",
+  "sources": [
+    {"name": "Relatório de pedidos de acesso à informação e solicitantes",
+    "path": "http://www.acessoainformacao.mg.gov.br/sistema/Relatorios/Anual/RelatorioAnualPedidos.aspx"
+    },
+    {"name": "Relatório de recursos e reclamações",
+    "path": "http://www.acessoainformacao.mg.gov.br/sistema/Relatorios/Anual/RelatorioAnualRecursos.aspx"
+    }
+  ],
   "contributors": 
   [
     {
       "title": "Diretoria de Transparência Ativa",
-      "path": "dados.mg.gov.br",
+      "path": "http://cge.mg.gov.br/a-cge/quem-e-quem/subcontroladoria-de-transparencia-e-integridade",
       "role": "publisher",
       "email": "transparencia@cge.mg.gov.br"
     },
     {
       "title": "Diretoria de Transparência Passiva",
-      "path": "http://www.acessoainformacao.mg.gov.br/sistema/site/relatorios_estatisticos.html",
+      "path": "http://cge.mg.gov.br/a-cge/quem-e-quem/subcontroladoria-de-transparencia-e-integridade",
       "role": "author",
       "email": "transparencia@cge.mg.gov.br"
     }
