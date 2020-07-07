@@ -487,6 +487,7 @@
   "homepage": "http://dados.mg.gov.br/dataset/relatorios-de-pedidos",
   "private": "false",
   "state": "active",
+  "update":"true",
   "commit": "af4f38c4e9416a71432877f43ab92807cd7d3828",
   "sources": [
     {"name": "Relatório de pedidos de acesso à informação e solicitantes",
