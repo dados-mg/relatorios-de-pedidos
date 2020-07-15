@@ -481,10 +481,10 @@
       }
     }
   ],
-  "name": "relatorios-de-pedidos",
+  "name": "relatorios-pedidos-acesso-informacao",
   "title": "Relatórios de Pedidos",
   "description": "Relatórios de pedidos de acesso à informação",
-  "homepage": "http://dados.mg.gov.br/dataset/relatorios-de-pedidos",
+  "homepage": "http://dados.mg.gov.br/dataset/relatorios-pedidos-acesso-informacao",
   "private": "false",
   "state": "active",
   "update":"true",
